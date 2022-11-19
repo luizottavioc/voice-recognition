@@ -1,0 +1,17 @@
+ModuleNotFoundError: No module named 'speech_recognition'
+pip install SpeechRecognition
+
+
+ModuleNotFoundError: No module named 'gtts'
+pip install gTTs
+
+
+ModuleNotFoundError: No module named 'playsound'
+pip install playsound
+
+
+Could not find PyAudio; check installation
+conda  install pyaudio
+
+instalar
+pip install tensorflow == 1.14 

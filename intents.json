@@ -1,0 +1,69 @@
+{"intents": [
+        {
+                "tag": "boas-vindas",
+                "patterns": ["Oi", "Como você está", "Tem alguém ai?", "Olá", "Bom dia", "Boa tarde","Boa noite", "Tudo bem?", "E aí", "Salve!"],
+                "responses": ["Olá! Sou o seu assistente cultural! O que você deseja?", "Oi, sou seu assistente cultural - a Julia!! Estou aqui para te ajudar!O que deseja? ", "Olá! Como posso ajudar?"],
+                "context_set": ""
+        },
+        {
+                "tag": "games",
+                "patterns": ["Me indique um jogo", "Pode me indicar um jogo?", "Quero jogar um jogo competitivo", "jogo", "Que jogo eu poderia iniciar agora?"],
+                "responses": ["Que tal iniciar um Rocket League? É de graça!", "Eu particularmente gosot de Cêssi gol", "Grand Theft Auto foi o jogo mais vendido da história da indústria de games!"],
+                "context_set": ""
+        },
+        {
+                "tag": "ate-mais",
+                "patterns": ["tchau", "Até mais", "Até logo", "Vou embora", "Tenha um bom dia", "Tenha uma boa noite", "Até mais ver", "Vou nessa", "Fui", "Estou indo"],
+                "responses": ["Espero ter ajudado, abraços! ", "A gente se fala depois", "Tchau!"],
+                "context_set": ""
+        },
+        {
+                "tag": "livros",
+                "patterns": ["Pode me indicar um livro?", "Quero ler um livro", "Quero uma sugestão de livro", "quero ler algo", "Me indique um livro", "Um livro", "algum livro interessante", "Quero ler", "sugestão de livro", "Sugestão de leitura"],
+                "responses": ["Eu te indico Os Pilares da Terra!", "Você pode gostar de Vidas Secas", "Estou lendo Inverno do Mundo - você vai Gostar"],
+                "context_set": ""
+        },
+        {
+                "tag": "filme",
+                "patterns": ["Pode me indicar um filme?", "Quero assistir um filme", "Quero uma sugestão de filme", "quero assistir algo", "Me indique um filme", "Um filme", "algum filme interessante", "Quero ver um filme", "sugestão de cinema", "Sugestão de filme"],
+                "responses": ["Vai rir muito com minha mãe é uma peça", "Um bem conhecido é tropa de elite, talvez goste", "Que tal Senhor dos Aneis?"],
+                "context_set": ""
+        },
+        {
+                "tag": "musica",
+                "patterns": ["Pode me indicar uma musica?", "Quero escutar uma musica", "Quero uma sugestão de musica", "quero escutar algo", "Me indique uma musica", "Uma musica", "alguma musica interessante", "Quero escutar uma musica", "sugestão de musica", "Sugestão musical"],
+                "responses": ["Ouça Brincar de Viver", "Voce vai gostar de Fácil do Jota Quest", "Uma boa pedida é Azul da Cor do Mar"],
+                "context_set": ""
+        },
+        {
+                "tag": "teatro",
+                "patterns": ["Pode me indicar uma peça de teatro?", "Quero assistir uma peça de teatro", "Quero uma sugestão de teatro", "quero assistir uma peça", "Me indique um teatro", "Um teatro", "algum bom teatro", "Quero peças teatrais", "sugestão de peça teatral", "Sugestão de peça"],
+                "responses": ["Indico Romeu e Julieta", "Minha sugestão é Quebra nozes", "Recomendo O Lago dos Cisnes"],
+                "context_set": ""
+        },
+        {
+                "tag": "quadro",
+                "patterns": ["Pode me indicar uma pintura?", "Obras de arte", "Quero uma sugestão quadro", "quero uma pintura", "Me indique um quadro famoso", "Uma obra de arte", "alguma pintura", "artes visuais", "sugestão de pinturas famosas", "Sugestão de quadro ou painel"],
+                "responses": ["Indico Operários de Tarsila Do Amaral", "Minha sugestão é Criança Morta de Portinari", "Recomendo todo o acervo de Romero Brito"],
+                "context_set": ""
+        },
+    	{
+                "tag": "museu",
+                "patterns": ["Pode me indicar um museu?", "Quero ir a um museu", "Museus no brasil", "alguma sugestão de museu", "Me indique um museu para visitar", "Um museu", "algum museu para ir", "melhores museus", "indique um museu ou galeria", "Sugestão museu"],
+                "responses": ["Visite o museu imperial em petrópolis", "Que tal o museu de arte de São Paulo?", "O museu do amanhã é minha recomendação para você"],
+                "context_set": ""
+        },
+    	{
+                "tag": "arquitetonico",
+                "patterns": ["Quero visitar um lugar histórico", "indique um patrimônio histórico", "Patrimônio historico UNESCO", "bons locais para visitar", "Me indique uma cidade histórica", "Um patrimonio cultural", "algum lugar histórico para ir", "Tombamentos histórico culturais", "sugestão de viagem", "Sugestão de cidade para visitar"],
+                "responses": ["Visite o centro histórico de Ouro Preto", "Vá para São Luís e visite o centro histórico", "Recomendo O Lago dos Cisnes"],
+                "context_set": ""
+        },
+    	{
+                "tag": "danca",
+                "patterns": ["Pode me indicar espetáculo de dança?", "Quero assistir um espetáculo de dança ou balé", "Bons espetáculos de dança ou balé", "quero assistir balé", "Me indique algo relacionado a dança", "Um balé", "algum espetáculo de dança ou balé", "Quero ver uma dança", "sugestão de dança", "Sugestão de espetáculo de dança ou balé"],
+                "responses": ["Indico A bela Adormecida", "Minha sugestão é O lago dos cisnes", "Recomendo O Pássaro de fogo"],
+                "context_set": ""
+        }
+   ]
+}
